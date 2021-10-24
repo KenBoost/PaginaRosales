@@ -7,18 +7,15 @@
 
 .encabezado {
   margin: auto;
-  border: solid;
-  border-color: orange;
-  background-color: #35ada5;
+  background: linear-gradient(90deg, rgba(7,84,113,1) 7%, rgba(20,193,188,1) 51%, rgba(13,203,208,1) 100%);
   height: 550px;
+    position: relative;
 }
 
 .contenido-header{
-  width: 95%;
+  width: 90%;
   display: flex;
-  justify-content: space-around;
-  border: solid;
-  border-color: orange;
+  justify-content: space-between;
 }
 
 .contenido-header .left{
@@ -64,7 +61,3 @@
     color: white;
 }
 
-.imagen-header{
-    
-
-}
