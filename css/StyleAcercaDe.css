@@ -63,7 +63,23 @@
     color: white;
 }
 
-
+/*MAPA GOOGLE*/
+.mapa-google{
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    background-color: #35ada5;
+    display: flex;
+    justify-content: center;
+}
+body main #map{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+    width: 90%;
+    border-radius: 10px;
+}
 
 /*---Footer-----*/
 
