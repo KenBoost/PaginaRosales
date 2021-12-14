@@ -27,7 +27,14 @@
 }
 
 .contenido-header .right{
-    margin-top: 11%;
+    margin-top: 8%;
+    width: 50%;
+     height: 300px;
+}
+.right img{
+    height: 300px;
+
+
 }
 .wave {
     position: absolute;
@@ -65,12 +72,33 @@
     color: white;
 }
 
-/*---Comentarios---*/
-.comentarios{
-    height: 600px;
-    background-image: url('../img/Fondo1.jpeg');
-    background-size: cover;
+/*---Service---*/
+.service{
+    background-color: rgb(36, 36, 36);
+    color: white;
 }
+
+.service h3{
+    color: white;
+}
+
+.service a{
+    color: white;
+    padding: 3%;
+    border-radius: 5px;
+    border: solid;
+    border-color: white;
+}
+
+.service a:hover{
+     color: rgb(29, 29, 138);
+    background-color: white;
+
+}
+.titulo2{
+    color: white;
+}
+
 
 /*---Footer-----*/
 
