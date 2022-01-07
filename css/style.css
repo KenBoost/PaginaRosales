@@ -1165,11 +1165,6 @@ a:focus {
     background: #1d2434;
 }
 
-.contact .container-fluid {
-    background: url(../img/contact.jpg) left center no-repeat;
-    background-size: contain;
-}
-
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;

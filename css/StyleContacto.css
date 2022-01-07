@@ -63,6 +63,15 @@
     color: white;
 }
 
+/*Contact*/
+#name, #email, #subject, #message, #sendMessageButton{
+    color: white;
+}
+.contact .container-fluid {
+    background: url(../img/contacto/contacto2.jpeg) left center no-repeat;
+    background-size: contain;
+}
+
 
 
 /*---Footer-----*/

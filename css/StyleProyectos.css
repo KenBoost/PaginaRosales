@@ -62,6 +62,10 @@
     color: white;
 }
 
+video{
+    z-index: 1;
+}
+
 /*---Footer-----*/
 
 /* RESPONSIVE */
