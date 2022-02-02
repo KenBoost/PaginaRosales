@@ -18,12 +18,17 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
     <!-- CSS Libraries -->
-
     <link href="css/StyleContacto.css" rel="stylesheet">
-
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <script src="mail/contact.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
 </head>
 
 <body>
@@ -151,11 +156,11 @@
                                 <div class="control-group">
                                     <textarea class="form-control" id="message" placeholder="Mensaje"
                                         required="required"
-                                        data-validation-required-message="Please enter your message"></textarea>
+                                        data-validation-required-message="Por Favor ingrese su mensaje"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div>
-                                    <button class="btn" type="submit" id="sendMessageButton">Enviar Mensaje</button>
+                                    <button class="btn" type="submit" id="sendMessageButton" onclick="validacion()">Enviar Mensaje</button>
                                 </div>
                             </form>
                         </div>
