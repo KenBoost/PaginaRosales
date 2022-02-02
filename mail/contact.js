@@ -3,7 +3,6 @@ function validacion() {
   let email = document.getElementById("email").value;
   let tema = document.getElementById("subject").value;
   let mensaje = document.getElementById("message").value;
-  
 
   debugger;
   if (mensaje == undefined) {
@@ -14,12 +13,7 @@ function validacion() {
     alert("Aún faltan datos para completar el mensaje, por favor revisar!");
   } else {
     const mensa =
-      "Nombre: " +
-      nombre +
-      "<br/> Tema: " +
-      tema+
-      "<br/> mensaje: " +
-      mensaje;
+      "Nombre: " + nombre + "<br/> Tema: " + tema + "<br/> mensaje: " + mensaje;
 
     envioCorreo(email, mensa);
   }
@@ -27,16 +21,13 @@ function validacion() {
 
 function envioCorreo(email, mensaje) {
   Email.send({
-    SecureToken: "udwicytewgic3mokdmfcj",
-    To:"asadaapp2022@gmail.com",
-    From: "asadaapp2022@gmail.com",
+    SecureToken: "ab27e522-cabb-4814-9a22-dfeeaabae4b3",
+    To: "asadaapp2022@gmail.com",
+    From: email,
     Subject: "Formulario de solicitud de pagina Rosales",
     Body: mensaje,
   }).then((message) => alert(message));
 }
-
-
-
 
 /*$(function () {
   $("#contactForm input, #contactForm textarea").jqBootstrapValidation({
