@@ -177,12 +177,12 @@ a:focus {
 }
 
 .navbar .navbar-brand span {
-    font-weight: 800;
+    font-weight: 100;
 }
 
 .navbar .navbar-brand img {
     max-width: 100%;
-    max-height: 40px;
+    max-height: 30px;
 }
 
 .navbar-dark .navbar-nav .nav-link,
