@@ -73,7 +73,7 @@ a:focus {
 .top-bar {
     position: relative;
     height: 60px;
-    background: #1d2434;
+    background: #181818;
 }
 
 .top-bar .top-bar-left {
@@ -218,7 +218,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #1d2434 !important;
+        background: #1a1a1a !important;
     }
     
     .navbar a.nav-link {
@@ -1358,12 +1358,12 @@ a:focus {
 
 /*******************************/
 /********* Footer CSS **********/
-/*******************************/
+/*************background: #1d2434;******************/
 .footer {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: #1d2434;
+    background: #181818;
 }
 
 .footer .footer-contact,
