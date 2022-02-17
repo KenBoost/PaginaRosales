@@ -4,7 +4,7 @@ function validacion() {
   let tema = document.getElementById("subject").value;
   let mensaje = document.getElementById("message").value;
 
-  debugger;
+
   if (mensaje == undefined) {
     mensaje = "Sin mensaje";
   }
