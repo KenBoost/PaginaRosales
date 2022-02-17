@@ -608,7 +608,8 @@ a:focus {
 }
 
 .about .about-text p {
-    font-size: 16px;
+    font-size: 15px;
+    text-align: justify;
 }
 
 .about .about-text a.btn {
@@ -626,6 +627,90 @@ a:focus {
 }
 
 .about .about-text a.btn:hover {
+    color: #D5B981;
+    background: #1d2434;
+}
+
+@media (max-width: 767.98px) {
+    .about .about-img {
+        margin-bottom: 30px;
+        height: auto;
+    }
+}
+
+/*******************************/
+/********** About 2 CSS **********/
+/*******************************/
+
+.about2 {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+    background-color: #f1f1f1;
+}
+
+.about2 .section-header {
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+.about2 .about-img {
+    position: relative;
+    height: 100%;
+    margin: 60px 0 0 60px;
+}
+
+.about2 .about-img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.about2 .about-img::before {
+    position: absolute;
+    content: "";
+    top: -60px;
+    right: 60px;
+    bottom: 60px;
+    left: -60px;
+    background: #1d2434;
+    z-index: 0;
+}
+
+.about2 .about-img::after {
+    position: absolute;
+    content: "";
+    top: -30px;
+    right: 30px;
+    bottom: 30px;
+    left: -30px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    z-index: 2;
+}
+
+.about2 .about-text p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.about2 .about-text a.btn {
+    position: relative;
+    margin-top: 15px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #1d2434;
+    border: 2px solid #1d2434;
+    border-radius: 0;
+    background: none;
+    transition: .3s;
+}
+
+.about2 .about-text a.btn:hover {
     color: #D5B981;
     background: #1d2434;
 }
@@ -1179,6 +1264,13 @@ a:focus {
     border-bottom: 1px solid #D5B981;
 }
 
+.contact .contact-form input::placeholder {
+   color: rgb(211, 211, 211);
+}
+
+.contact .contact-form textarea::placeholder {
+    color: rgb(211, 211, 211);
+}
 .contact .contact-form textarea {
     height: 90px;
     padding: 15px 0;
