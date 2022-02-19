@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #D5B981;
+    color: #8df8e1;
     outline: none;
     text-decoration: none;
 }
@@ -41,7 +41,7 @@ a:focus {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #D5B981;
+    background: #03a1a7;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -54,15 +54,15 @@ a:focus {
 }
 
 .back-to-top:hover {
-    background: #1d2434;
+    background: #ff6c6c;
 }
 
 .back-to-top:hover i {
-    color: #D5B981;
+    color: #ffffff;
 }
 
 .back-to-top i {
-    color: #1d2434;
+    color: #ffffff;
     padding-top: 10px;
 }
 
@@ -1371,7 +1371,7 @@ a:focus {
 .footer .footer-newsletter {
     position: relative;
     margin-bottom: 45px;
-    color: #999999;
+    color: #c9c9c9;
 }
 
 .footer .footer-contact h2,
@@ -1381,13 +1381,13 @@ a:focus {
     margin-bottom: 30px;
     font-size: 22px;
     font-weight: 700;
-    color: #D5B981;
+    color: #8df8e1;
 }
 
 .footer .footer-link a {
     display: block;
     margin-bottom: 10px;
-    color: #999999;
+    color: #c9c9c9;
     transition: .3s;
 }
 
@@ -1400,7 +1400,7 @@ a:focus {
 }
 
 .footer .footer-link a:hover {
-    color: #D5B981;
+    color: #8df8e1;
     letter-spacing: 1px;
 }
 
@@ -1420,7 +1420,7 @@ a:focus {
 .footer .footer-social a i {
     margin-right: 15px;
     font-size: 18px;
-    color: #D5B981;
+    color: #8df8e1;
 }
 
 .footer .footer-social a:last-child i {
@@ -1428,7 +1428,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-    color: #999999;
+    color: #fa7676;
 }
 
 .footer .footer-newsletter .form {
@@ -1458,7 +1458,7 @@ a:focus {
 }
 
 .footer .footer-newsletter .btn:hover {
-    color: #D5B981;
+    color: #8df8e1;
     background: #1d2434;
 }
 
