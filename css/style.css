@@ -1177,26 +1177,26 @@ a:focus {
     list-style: none;
     font-size: 0;
     text-align: center;
-}
 
+}
 .portfolio #portfolio-flters li {
     cursor: pointer;
     display: inline-block;
     margin: 5px;
     padding: 8px 15px;
-    color: #1d2434;
+    color: #070707;
     font-size: 14px;
     font-weight: 600;
     border-radius: 0;
     background: none;
-    border: 2px solid #1d2434;
+    border: 2px solid #000000;
     transition: .3s;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #1d2434;
-    color: #D5B981;
+    background: #3dc9c2;
+    color: #fdfdfd;
 }
 
 .portfolio .portfolio-item {
@@ -1229,7 +1229,7 @@ a:focus {
 }
 
 .portfolio .portfolio-wrap:hover a::after {
-    border-color: #D5B981;
+    border-color: #3dc9c2;
 }
 
 .portfolio img {
