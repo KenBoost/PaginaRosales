@@ -232,8 +232,9 @@ a:focus {
 @media (max-width: 991.98px) {   
     .navbar {
         padding: 15px;
-        background: #1d2434 !important;
+        background: #181818 !important;
     }
+    
     
     .navbar a.nav-link {
         padding: 5px;
