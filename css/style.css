@@ -1247,14 +1247,14 @@ a:focus {
 .contact {
     position: relative;
     width: 100%;
-    margin: 45px 0;
-    background: #1d2434;
+    background: #174753;
+   
 }
 
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #1d2434;
+    background: #174753;
 }
 
 .contact .contact-form input {
@@ -1295,7 +1295,7 @@ a:focus {
 
 .contact .contact-form .btn:hover {
     color: #1d2434;
-    background: #D5B981;
+    background: #252525;
 }
 
 .contact .help-block ul {
@@ -1304,15 +1304,7 @@ a:focus {
     list-style-type: none;
 }
 
-@media (max-width: 767.98px) {
-    .contact .container-fluid {
-        background: none;
-    }
-    
-    .contact .contact-form {
-        padding: 90px 0;
-    }
-}
+
 
 
 /*******************************/
@@ -1362,7 +1354,6 @@ a:focus {
 /*************background: #1d2434;******************/
 .footer {
     position: relative;
-    margin-top: 45px;
     padding-top: 90px;
     background: #181818;
 }
