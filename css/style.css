@@ -1447,6 +1447,7 @@ a:focus {
     border-radius: 0;
     border: 2px solid #1d2434;
     transition: .3s;
+
 }
 
 .footer .footer-newsletter .btn:hover {
@@ -1479,7 +1480,7 @@ a:focus {
 }
 
 .footer .copyright p a:hover {
-    color: #D5B981;
+    color: #8df8e1;
 }
 
 @media (max-width: 767.98px) {
