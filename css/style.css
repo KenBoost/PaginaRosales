@@ -141,8 +141,8 @@ a:focus {
 }
 
 .top-bar .social a:hover {
-    color: #D5B981;
-    background: #ffffff;
+    color: #ffffff;
+    background: #8df8e1;
 }
 
 @media (min-width: 992px) {
@@ -628,8 +628,9 @@ a:focus {
 }
 
 .about .about-text a.btn:hover {
-    color: #D5B981;
-    background: #1d2434;
+    color: #ffffff;
+    background: #2f8d99;
+    border-color: #2f8d99;
 }
 
 @media (max-width: 767.98px) {
@@ -782,20 +783,17 @@ a:focus {
     position: relative;
     margin-bottom: 30px;
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
-    color: #1d2434;
-    border: 2px solid #1d2434;
+    color: #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 0;
     background: none;
     transition: .3s;
+    
+
 }
 
-.service .service-item:hover a.btn {
-    color: #D5B981;
-    background: #1d2434;
-    border-color: #1d2434;
-}
 
 
 /*******************************/
@@ -923,11 +921,11 @@ a:focus {
 }
 
 .team .team-item:hover .team-text {
-    background: #D5B981;
+    background: #8df8e1;
 }
 
 .team .team-item:hover .team-img::after {
-    border-color: #D5B981;
+    border-color: #59ccdb;
 }
 
 
@@ -1451,8 +1449,9 @@ a:focus {
 }
 
 .footer .footer-newsletter .btn:hover {
-    color: #8df8e1;
-    background: #1d2434;
+    color: #ffffff;
+    background: #2f8d99;
+    border-color: #2f8d99;
 }
 
 .footer .copyright {

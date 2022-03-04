@@ -79,17 +79,12 @@
     color: white;
 }
 
-.service a{
-    color: white;
-    padding: 3%;
-    border-radius: 5px;
-    border: solid;
-    border-color: white;
-}
 
-.service a:hover{
-     color: rgb(29, 29, 138);
-    background-color: white;
+
+.service a.btn:hover{
+    color: #ffffff;
+    background: #2f8d99;
+    border-color: #2f8d99;
 
 }
 .titulo2{
