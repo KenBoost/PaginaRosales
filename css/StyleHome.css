@@ -91,6 +91,37 @@
     color: white;
 }
 
+/*----Junta------*/
+
+.ul-group {
+    padding: 0;
+    list-style: none;
+}
+
+
+.ul-group li::before {
+    position: relative;
+    content: "\f0da";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.table{
+    font-size: 16px;
+    width: 90%;
+    
+}
+
+.table tbody td{
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+}
+
+.table thead th{
+    font-size: 19px;
+}
 
 /*---Footer-----*/
 
