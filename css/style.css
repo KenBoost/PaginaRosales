@@ -713,8 +713,9 @@ a:focus {
 }
 
 .about2 .about-text a.btn:hover {
-    color: #D5B981;
-    background: #1d2434;
+    color: #ffffff;
+    background: #2f8d99;
+    border-color: #2f8d99;
 }
 
 @media (max-width: 767.98px) {
@@ -926,94 +927,6 @@ a:focus {
 
 .team .team-item:hover .team-img::after {
     border-color: #59ccdb;
-}
-
-
-/*******************************/
-/******* Testimonial CSS *******/
-/*******************************/
-.testimonial {
-    position: relative;
-    margin: 45px 0;
-    padding: 120px 0;
-    background: linear-gradient(rgba(29, 36, 52, 1), rgba(29, 36, 52, .5), rgba(29, 36, 52, 1)), url(../img/testimonial-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.testimonial .container {
-    max-width: 700px;
-}
-
-.testimonial .testimonials-carousel {
-    position: relative;
-    width: 100%;
-}
-
-.testimonial .testimonial-item {
-    position: relative;
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    overflow: hidden;
-}
-
-.testimonial .testimonial-item img {
-    width: 60px;
-    border-radius: 60px;
-    margin-bottom: 25px;
-}
-
-.testimonial .testimonial-item p {
-    color: #ffffff;
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.testimonial .testimonial-item h2 {
-    color: #D5B981;
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 5px;
-}
-
-.testimonial .testimonial-item h3 {
-    color: #999999;
-    font-size: 16px;
-    font-weight: 300;
-    margin: 0;
-}
-
-.testimonial .owl-nav {
-    width: 135px;
-    margin-top: 45px;
-    display: flex;
-}
-
-.testimonial .owl-nav .owl-prev,
-.testimonial .owl-nav .owl-next {
-    width: 60px;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #D5B981;
-    background: #1d2434;
-    font-size: 22px;
-    transition: .3s;
-}
-
-.testimonial .owl-nav .owl-next {
-    margin-left: 15px;
-}
-
-.testimonial .owl-nav .owl-prev:hover,
-.testimonial .owl-nav .owl-next:hover {
-    color: #1d2434;
-    background: #D5B981;
 }
 
 
