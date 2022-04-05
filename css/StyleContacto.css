@@ -77,7 +77,11 @@
     background-size: contain;
 }
 
-
+ /*Otros Medios*/
+ .medios{
+    font-weight: 600;
+   
+}
 
 /*---Footer-----*/
 
@@ -124,5 +128,6 @@
     .contact .contact-form {
         padding: 90px 0;
     }
+
 
 }

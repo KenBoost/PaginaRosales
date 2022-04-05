@@ -2,7 +2,7 @@
 /********* General CSS *********/
 /*******************************/
 body {
-    color: #797979;
+    color: #3f3f3f;
     background: #ffffff;
     font-family: 'Open Sans', sans-serif;
 }
@@ -609,7 +609,7 @@ a:focus {
 }
 
 .about .about-text p {
-    font-size: 15px;
+    font-size: 18px;
     text-align: justify;
 }
 
@@ -647,8 +647,9 @@ a:focus {
 .about2 {
     position: relative;
     width: 100%;
-    padding: 45px 0;
+    padding: 65px 0;
     background-color: #f1f1f1;
+
 }
 
 .about2 .section-header {
@@ -694,7 +695,7 @@ a:focus {
 }
 
 .about2 .about-text p {
-    font-size: 16px;
+    font-size: 18px;
     text-align: justify;
 }
 
