@@ -98,22 +98,51 @@ video{
 /*---Footer-----*/
 
 /* RESPONSIVE */
-@media screen and (max-width: 767px) {
-	.feedback-slider-item:after {
-		left: 30px;
-		right: 30px;
-	}
-	.customer-feedback .owl-nav [class*="owl-"] {
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-		margin-top: 45px;
-		bottom: auto;
-	}
-	.customer-feedback .owl-prev {
-		left: 0;
-	}
-	.customer-feedback .owl-next {
-		right: 0;
-	}
+@media screen and (max-width: 725px) {
+    /*Para el Nav*/
+    .contenido-header{
+        justify-content: center;
+      }
+   .navbar .navbar-brand {
+       font-size: 20px;
+   }
+   .encabezado{
+       background-position: center;
+       max-height: 410px;
+       background-size: cover;
+       
+   }
+   .encabezado .textos-header {
+       height: 200px;
+       width:100%;
+       align-items: center;
+       flex-direction: column;
+       text-align: center;
+       padding: 0%;
+   }
+
+   .textos-header h1 {
+       font-size: 30px;
+       font-weight: bold; 
+       margin-top: 15%;
+   }
+
+   /*--------------------------*/
+   .feedback-slider-item:after {
+       left: 30px;
+       right: 30px;
+   }
+   .customer-feedback .owl-nav [class*="owl-"] {
+       position: absolute;
+       top: 50%;
+       transform: translateY(-50%);
+       margin-top: 45px;
+       bottom: auto;
+   }
+   .customer-feedback .owl-prev {
+       left: 0;
+   }
+   .customer-feedback .owl-next {
+       right: 0;
+   }
 }

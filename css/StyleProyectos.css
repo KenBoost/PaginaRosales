@@ -90,6 +90,8 @@ video {
         align-items: left;
         flex-direction: column;
         text-align: left;
+
+        
     }
 
     .textos-header h1 {
