@@ -7,9 +7,12 @@
 .encabezado {
     margin: auto;
     background: rgb(224,226,226);
-    background: linear-gradient(0deg, rgba(224,226,226,1) 0%, rgba(7,193,181,1) 100%);
-    height: 450px;
     position: relative;
+    background-image: url('../img/fondos/img1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 550px;
+    
   }
 
 .contenido-header{
@@ -97,22 +100,7 @@ video{
        margin-top: 15%;
    }
 
-   /*--------------------------*/
-   .feedback-slider-item:after {
-       left: 30px;
-       right: 30px;
-   }
-   .customer-feedback .owl-nav [class*="owl-"] {
-       position: absolute;
-       top: 50%;
-       transform: translateY(-50%);
-       margin-top: 45px;
-       bottom: auto;
-   }
-   .customer-feedback .owl-prev {
-       left: 0;
-   }
-   .customer-feedback .owl-next {
-       right: 0;
-   }
+   .imgfooter img{
+    margin-bottom: 10%;
+    }
 }

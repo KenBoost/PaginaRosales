@@ -166,24 +166,10 @@
         margin-top: 80%;
     
     }
-    /*--------------------------*/
 
-	.feedback-slider-item:after {
-		left: 30px;
-		right: 30px;
-	}
-	.customer-feedback .owl-nav [class*="owl-"] {
-		position: absolute;
-		top: 50%;
-		transform: translateY(-50%);
-		margin-top: 45px;
-		bottom: auto;
-	}
-	.customer-feedback .owl-prev {
-		left: 0;
-	}
-	.customer-feedback .owl-next {
-		right: 0;
-	}
+    .imgfooter img{
+        margin-bottom: 10%;
+    }
+    
 }
 
