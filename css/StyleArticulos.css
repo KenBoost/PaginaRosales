@@ -64,8 +64,12 @@
     color: white;
 }
 
-video{
-    z-index: 1;
+.videoCEDARENA{
+    -webkit-box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+    border: solid;
+    height: 250px;
 }
 
 /*---Footer-----*/
@@ -99,6 +103,9 @@ video{
        font-weight: bold; 
        margin-top: 15%;
    }
+   .videoCEDARENA{
+    height: 190px;
+}
 
    .imgfooter img{
     margin-bottom: 10%;
