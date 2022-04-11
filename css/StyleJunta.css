@@ -60,10 +60,14 @@
 .textos-header h3 {
     color: white;
 }
-
-video{
-    z-index: 1;
+ul>li{
+    margin-left: 20px;
+    text-align: justify;
 }
+.FODA{
+    width: 115%;
+}
+
 
 /*---Footer-----*/
 
@@ -95,6 +99,10 @@ video{
        font-size: 30px;
        font-weight: bold; 
        margin-top: 15%;
+   }
+
+   .FODA{
+    width: 105%;
    }
 
     /*footer*/
