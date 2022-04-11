@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.encabezado {
+    margin: auto;
+    background: rgb(224,226,226);
+    position: relative;
+    background-image: url('../img/fondos/img9.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 550px;
+    
+  }
+
+.contenido-header{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenido-header .left{
+    margin-top: 15%;
+}
+
+.contenido-header .right{
+    margin-top: 11%;
+}
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.encabezado .textos-header {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: left;
+    flex-direction: column;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.textos-header h1 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+
+}
+
+.textos-header h2 {
+    font-size: 30px;
+    font-weight: 300px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.textos-header h3 {
+    color: white;
+}
+
+.videoCEDARENA{
+    -webkit-box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 39px -13px rgba(0,0,0,0.75);
+    border: solid;
+    height: 250px;
+}
+
+/*---Footer-----*/
+
+/* RESPONSIVE */
+@media screen and (max-width: 725px) {
+    /*Para el Nav*/
+    .contenido-header{
+        justify-content: center;
+      }
+   .navbar .navbar-brand {
+       font-size: 20px;
+   }
+   .encabezado{
+       background-position: center;
+       max-height: 410px;
+       background-size: cover;
+       
+   }
+   .encabezado .textos-header {
+       height: 200px;
+       width:100%;
+       align-items: center;
+       flex-direction: column;
+       text-align: center;
+       padding: 0%;
+   }
+
+   .textos-header h1 {
+       font-size: 30px;
+       font-weight: bold; 
+       margin-top: 15%;
+   }
+   .videoCEDARENA{
+    height: 190px;
+}
+
+   .imgfooter img{
+    margin-bottom: 10%;
+    }
+}
